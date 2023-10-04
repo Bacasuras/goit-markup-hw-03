@@ -339,7 +339,8 @@ img {
 .portfolio-flex {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 48px;
+  column-gap: 24px;
 }
 .portfolio-flex-items {
   width: calc((100% - 48px) / 3);
