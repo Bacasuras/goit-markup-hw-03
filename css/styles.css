@@ -237,6 +237,7 @@ img {
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 8px;
+  /* margin-bottom: 72px; */
 }
 .main-text-three {
   color: var(--SLATE, #434455);
@@ -260,15 +261,16 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   background-color: #f4f4fd;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .flex-section-3 {
   display: flex;
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
   gap: 24px;
 }
 .section-three {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .items-three {
   border: 4px solid #fff;
