@@ -54,18 +54,17 @@ img {
 /* header */
 .header-flex {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
   border-bottom: 1px solid #e7e9fc;
-  margin-right: 76px;
+  margin: 0 auto;
 }
 .nav-list {
   display: flex;
-  align-items: center;
   gap: 40px;
+  padding: 24px 0;
 }
 .nav-flex {
   display: flex;
+  align-items: center;
 }
 
 .address-flex {
