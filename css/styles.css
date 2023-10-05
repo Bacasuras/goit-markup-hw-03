@@ -63,11 +63,11 @@ img {
 .nav-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .nav-flex {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .address-flex {
