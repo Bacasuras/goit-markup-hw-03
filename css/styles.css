@@ -195,16 +195,11 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.container-two {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0;
-  border: 2px solid red;
-}
+
 .section-two-flex {
   display: flex;
   gap: 24px;
-  padding: 120px 0;
+  /* padding: 120px 0; */
 }
 .items-flex-2 {
   flex-basis: calc((100% - 72px) / 4);
@@ -230,6 +225,12 @@ img {
   letter-spacing: 0.02em;
 }
 /* section-3 */
+/* .section-three {
+  padding: 120px 0;
+}
+.items-with-three {
+  width: calc((100% - 72px) / 4);
+}
 .section-title {
   color: var(--navyblue, #2e2f42);
   text-align: center;
@@ -245,9 +246,9 @@ img {
 }
 .section-flex-3 {
   display: flex;
-  padding-bottom: 120px;
-  gap: 24px;
-}
+  /* padding-bottom: 120px; */
+/* gap: 24px; */
+
 /* section-4 */
 .sub-title-four {
   color: var(--NAVY-BLUE, #2e2f42);
