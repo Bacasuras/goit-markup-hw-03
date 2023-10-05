@@ -56,9 +56,12 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  border-bottom: 1px solid #e7e9fc;
+  margin-right: 76px;
 }
 .nav-list {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
 .nav-flex {
@@ -150,7 +153,7 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  width: 496px;
+  max-width: 496px;
   margin: 0 auto 48px;
 }
 .hero-button {
@@ -163,7 +166,7 @@ img {
   line-height: 24px; /* 150% */
   letter-spacing: 0.04em;
   cursor: pointer;
-  border: 0px solid #4d5ae5;
+  border: none;
   border-radius: 4px;
   background-color: #4d5ae5;
   display: block;
@@ -201,7 +204,7 @@ img {
 .section-two-flex {
   display: flex;
   gap: 24px;
-  padding: 120px 0 120px;
+  padding: 120px 0;
 }
 .items-flex-2 {
   flex-basis: calc((100% - 72px) / 4);
@@ -215,7 +218,7 @@ img {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .main-text {
   color: var(--slate, #434455);
@@ -238,11 +241,11 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   background-color: #ffffff;
+  margin-bottom: 72px;
 }
 .section-flex-3 {
   display: flex;
   padding-bottom: 120px;
-  padding-top: 72px;
   gap: 24px;
 }
 /* section-4 */
@@ -301,7 +304,7 @@ img {
 
 .footer {
   background-color: var(--navyblue);
-  padding: 120px 0;
+  padding: 100px 0;
 }
 .footer-logo {
   color: var(--iris);
@@ -313,6 +316,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  display: inline-block;
 }
 .footer-color {
   color: #f4f4fd;
@@ -323,6 +327,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
 }
 .footer-text {
   color: #f4f4fd;
