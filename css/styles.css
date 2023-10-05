@@ -52,10 +52,13 @@ img {
   border: 2px solid red;
 }
 /* header */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-flex {
   display: flex;
-  border-bottom: 1px solid #e7e9fc;
   margin: 0 auto;
+  justify-content: space-between;
 }
 .nav-list {
   display: flex;
